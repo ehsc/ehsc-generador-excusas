@@ -1,1 +1,24 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: #000000;
+}
+div {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #f7f7f7;
+  font-family: "Poppins";
+  animation: fadeIn 3s ease-in-out;
+}
+div #excuse {
+  font-size: xx-large;
+  font-weight: 600;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
